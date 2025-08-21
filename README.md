@@ -39,10 +39,9 @@ Many projects compare models only by accuracy — this work goes further by:
 
 ## Datasets
 
-Used datasets and samples (see `data/README.md` for download & preprocessing instructions):
-
 * **Sentiment140** (Kaggle) — baseline and larger runs.
 * Sampled corpus of tweets (\~1.6M) used for scaling experiments and profiling.
+* Kaggle - https://www.kaggle.com/datasets/andrezaza/clapper-massive-rotten-tomatoes-movies-and-reviews/data
 
 > Raw large datasets are not included due to size and licensing. The notebooks include cells to fetch or synthetically reproduce small samples for demo purposes.
 
@@ -115,32 +114,9 @@ README.md
 
 ---
 
-## Supervisor & contact
+## Contact
 
-* **Student:** Fabio Rodrigues
-* **Supervisor:** Ferran Espuny Pujol
 * **Email:** [faboorod2@gmail.com](mailto:faboorod2@gmail.com)
 
 ---
 
-## Contributing
-
-Contributions and reproducibility fixes are welcome. If you want to run full BERT sweeps you will benefit from GPU access; small sample reproductions run on CPU.
-
----
-
-## License
-
-This project is released under the **MIT License**. See `LICENSE` for details.
-
----
-
-## Next steps
-
-* Run final hyperparameter sweeps and populate `reports/results_summary.md` with tuned best models and operational numbers.
-* Add a `environment.yml` or Dockerfile and lightweight CI that runs the classical ML pipeline as a smoke test.
-* Consider including a distilled transformer (e.g., DistilBERT) as a middle ground for businesses.
-
----
-
-*README updated to emphasise the explicit comparison between traditional NLP models and BERT, and to document hyperparameter tuning and business tradeoffs.*
